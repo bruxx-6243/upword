@@ -1,0 +1,265 @@
+<!DOCTYPE html>
+<html lang="en" style="scroll-behavior: smooth;">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="icon" href="./src/images/favicon.svg" type="image/gif" sizes="16x16">
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css">
+
+    <link rel="stylesheet" href="./dist/output.css">
+
+    <title>UPWORD</title>
+</head>
+<body>
+
+    <!-- Navbar -->
+    <nav class="relative border-b border-solid border-black">
+        <div class="flex justify-between">
+            <!-- Nav left -->
+            <div class="flex gap-x-8 items-center">
+                <a href="#" class="border-r border-solid border-black py-3 px-6">
+                    <img src="./src/images/logo.svg" alt="Logo UPWORD">
+                </a>
+                <a href="#" class="font-bold">About</a>
+            </div>
+            
+            <!-- Nav right buttons -->
+            <div class="hidden md:flex">
+                <button class="px-12 py-3 text-center font-bold border-x border-solid border-black outline-none">Log in</button>
+                <button class="px-6 py-3 text-center font-bold bg-primaryColor">Start learning</button>
+            </div>
+
+            <!-- Icone humberg -->
+            <div id="button" class="flex items-center text-3xl bg-primaryColor  px-2 text-black rounded-sm md:hidden">
+                <i class="px-6 fa-solid fa-bars"></i>
+            </div>
+
+            <!-- Menu -->
+            <div id="menu" class="absolute top-16 left-0 flex flex-col judtify-center items-center gap-y-6 gap-x-5 w-full bg-white py-16">
+                <img src="./src/images/favicon.svg" alt="" class="w-2/5 mb-6">
+                <button class=" menu-btn bg-white w-4/5 text-black border-solid border-black border-2  rounded-sm uppercase cursor-pointer px-5 py-3">Log in</button>
+                <button class=" menu-btn bg-primaryColor w-4/5 text-black broder-solid border-black border-2 rounded-sm uppercase cursor-pointer px-5 py-3">Start learning</button>
+            </div>
+        </div>
+
+
+    </nav>
+
+    <!-- Hero section -->
+    <section id="hero">
+        <!-- Flex container -->
+        <div class="flex flex-col justify-between gap-8 px-8 py-16 mx-auto md:flex-row">
+            <!-- left part -->
+            <div class="text-center md:w-1/3 md:text-left">
+                <h1 class="text-center text-3xl  font-roboto tracking-widest font-regular mb-8 md:text-left md:text-4xl lg:text-7xl">Become a //super// learner</h1>
+                <p class="text-center font-inter text-textParagraphe mb-12 tracking-wide md:text-left ">
+                    Upword believes that reading efficiently is a superpower. 
+                    Optimize your reading skills, read faster and understand what you need.
+                </p>
+
+                <button class="bg-primaryColor px-3 py-2 rounded-md font-bold tracking-wide">Start Learning</button>
+            </div>
+
+            <!-- Right part -->
+            <div class="">
+                <img src="./src/images/hero.svg" alt="">
+            </div>
+
+        </div>
+    </section>
+
+    <!-- Section in short -->
+    <section class="inShort bg-black  ">
+        <!-- grid container -->
+        <div class="grid grid-cols mx-auto md:grid-cols-2">
+            <!-- left part -->
+            <div class="px-8 py-16 md:border-r md:border-solid md:border-white">
+                <img src="./src/images/section-1.svg" alt="" class="">
+            </div>
+
+            <!-- right part -->
+            <div class="px-8 text-white pb-16 md:py-16 ">
+                <h1 class="flex flex-col gap-x-12 text-3xl  font-roboto tracking-wide mb-8 text-left lg:text-6xl">
+                    <span class="mb-4">{ In short } ,</span>
+                    <span class="mt-4">read <span class="border border-solid border-white rounded-md px-1 py-2">faster</span></span>
+                </h1>
+                <p class="text-md text-left font-inter mb-14 tracking-wide">
+                    Our automatically generated summaries <br /> guarantee you read only what you need.
+                </p>
+
+                <button class="bg-primaryColor px-3 py-2 rounded-md font-bold tracking-wide text-black">Start Learning</button>
+            </div>
+        </div>
+    </section>
+
+    <!-- We'll read the text for you -->
+    <section class="weReadTheTxtForYou">
+         <!-- grid container -->
+        <div class="grid grid-cols mx-auto md:grid-cols-2">
+            <!-- right part -->
+            <div class="px-8 text-black py-16 md:border-r md:border-solid md:border-black">
+                <h1 class="flex flex-col gap-x-12 text-3xl  font-roboto tracking-wide mb-8 text-left lg:text-5xl">
+                    <span>We’ll read the </span>
+                    <span>text *for you*</span>
+                </h1>
+                <p class="text-md text-left font-inter mb-14 tracking-wide md:w-8/12">
+                    Whether you learn better by listening or on the move, Upword has your back. Our text-to-speech 
+                    engine automatically transforms text to audio, making it easy to consume and comprehend.
+                </p>
+
+                <button class="bg-primaryColor px-3 py-2 rounded-md font-bold tracking-wide text-black">Start Learning</button>
+            </div>
+
+            <!-- left part -->
+            <div class="px-8 pb-16 md:py-16 ">
+                <img src="./src/images/section-2.svg" alt="" class="">
+            </div>
+
+        </div>
+    </section>
+
+     <!-- Learn actively -->
+     <section class="weReadTheTxtForYou border-t border-solid border-black">
+        <!-- grid container -->
+       <div class="grid grid-cols mx-auto md:grid-cols-2">
+            <!-- left part -->
+            <div class="px-8 pb-16 md:py-16 md:border-r md:border-solid md:border-black">
+                <img src="./src/images/section-3.svg" alt="" class=" lg:w-2/3">
+            </div>
+
+            <!-- right part -->
+            <div class="px-8 text-black pb-16 md:py-16  ">
+                <h1 class="flex flex-col gap-x-12 text-3xl  font-roboto tracking-wide mb-8 text-left lg:text-5xl">
+                    Learn //actively//
+                </h1>
+                <p class="text-md text-left font-inter mb-14 tracking-wide ">
+                    Upword transforms reading into a fully interactive learning experience. Highlight, take key notes, translate unfamiliar words and add important comments to reduce friction, 
+                    maximize comprehension, and improve reading efficiency.
+                </p>
+
+                <button class="bg-primaryColor px-3 py-2 rounded-md font-bold tracking-wide text-black">Start Learning</button>
+            </div>
+       </div>
+   </section>
+
+   <!-- Section in short -->
+   <section class="inShort bg-black  ">
+    <!-- grid container -->
+    <div class="flex flex-col py-12 px-8 mx-auto md:flex-row">
+        <!-- right part -->
+        <div class=" text-white md:w-5/12">
+            <h1 class="flex flex-col text-3xl  font-roboto tracking-wide mb-8 text-left lg:text-5xl">
+                <span>Your { new }</span>
+                <span>knowledge library</span>
+            </h1>
+            <p class="text-md font-inter mb-14 tracking-wide text-left md:pr-10">
+                Every article you upload to Upword is securely stored in your personal library, for life. Create folders and reading lists, 
+                tag content and share articles with friends to keep your lifelong knowledge managed and in control.
+            </p>
+
+            <button class="bg-primaryColor px-3 py-2 rounded-md font-bold tracking-wide text-black">Start Learning</button>
+        </div>
+
+        <!-- left part -->
+        <div class="grid gap-4 grid-cols-3 w-full pt-8 md:pt-0 md:w-7/12">
+            <img src="./src/images/sous-sec-3.svg" alt="" class="">
+            <img src="./src/images/sous-sec-2.svg" alt="" class="">
+            <img src="./src/images/sous-sec-1.svg" alt="" class="">
+            <img src="./src/images/sous-sec-4.svg" alt="" class="">
+            <img src="./src/images/sous-sec-5.svg" alt="" class="">
+            <img src="./src/images/sous-sec-6.svg" alt="" class="">
+        </div>
+    </div>
+   </section>
+
+    <!-- Section in short -->
+    <section class="inShort bg-white">
+        <!-- grid container -->
+        <div class="grid grid-cols mx-auto md:grid-cols-2">
+            <!-- right part -->
+            <div class="px-8 text-black py-16 md:border-r md:border-solid md:border-black ">
+                <h1 class="flex flex-col gap-x-12 text-3xl  font-roboto tracking-wide mb-8 text-left lg:text-5xl">
+                    <span class="mb-4"> Join <span class="border border-solid border-black rounded-md px-1 py-2">thousands</span></span>
+                    <span>of students from <br /> >> leading >> <br /> institutions</span>
+                </h1>
+                <p class="text-md text-left font-inter tracking-wide">
+                    Our automatically generated summaries <br /> guarantee you read only what you need.
+                </p>
+            </div>
+
+            <div class="flex justify-center items-center pt-8 px-8 pb-16 md:py-16">
+                <div class="grid gap-6 grid-cols-4">
+                    <img src="./src/images/puce-1.svg" alt="" class="">
+                    <img src="./src/images/puce-2.svg" alt="" class="">
+                    <img src="./src/images/Rectangle.svg" alt="" class="">
+                    <img src="./src/images/Rectangle-1.svg" alt="" class="">
+                    <img src="./src/images/Rectangle-2.svg" alt="" class="">
+                    <img src="./src/images/Rectangle-3.svg" alt="" class="">
+                    <img src="./src/images/Rectangle-4.svg" alt="" class="">
+                    <img src="./src/images/Rectangle-5.svg" alt="" class="">
+                    <img src="./src/images/Rectangle-6.svg" alt="" class="">
+                    <img src="./src/images/Rectangle-7.svg" alt="" class="">
+                    <img src="./src/images/Rectangle-8.svg" alt="" class="">
+                    <img src="./src/images/Rectangle-9.svg" alt="" class="">
+                    <img src="./src/images/Rectangle-10.svg" alt="" class="">
+                </div>
+                
+            </div>
+        </div>
+    </section>
+   
+    <!-- Section in short -->
+    <section class="inShort bg-primaryColor">
+        <div class="container flex justify-center items-center mx-auto py-16">
+            <div class="flex gap-x-4 border border-solid text-black bg-white border-gray-800 rounded-md mx-4 max-w-xs md:max-w-xl p-6">
+                <div>
+                    <img src="./src/images/Frame.svg" alt="" class="w-60">
+                </div>
+                <div>
+                    <p id="message" class="mt-6">
+                        Upword provided me a reliable way to skim, comprehend, and summarize the cases that were so quintessential 
+                        to my class. I would definitely recommend Upword 
+                        to anybody who is trying to secure an A and truly understand the material that is in that class."
+                    </p>
+                    <div class="flex items-center  gap-x-4 pt-6">
+                        <img src="./src/images/Frame-1.svg" alt="">
+                        <p class="flex flex-col">
+                            <span id="author" class="text-bold italic">Evan</span>
+                            <span>Cornell University, Arts and design student</span>
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Section in short -->
+    <section class="inShort bg-black  ">
+        <!-- grid container -->
+        <div class="container grid grid-cols2 gap-y-6 justify-between px-6 py-10 md:mx-auto md:flex-row md:grid-cols-3">
+            <a href="#">
+                <img src="./src/images/Vector.svg" alt="">
+            </a>
+
+            <div class="flex gap-4 text-white ">
+                <a href="#"><i class=" text-2xl fa-brands fa-twitter"></i></a>
+                <a href="#"><i class=" text-2xl fa-brands fa-linkedin-in"></i></a>
+                <a href="#"><i class=" text-2xl fa-brands fa-facebook"></i></a>
+            </div>
+
+            <div class="flex flex-col justify-evenly text-left md:text-right text-white text-sm">
+                <a href="#">About</a>
+                <p>© <span class="current-year"></span>, <a href="https://github.com/bruxx-6243" class="italic" target="_blank">BRUXX DEV</a> All rights reserved</p>
+            </div>
+        </div>
+    </section>
+
+    
+
+
+    <script src="./src/app.js"></script>
+</body>
+</html>
